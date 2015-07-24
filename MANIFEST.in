@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include paypal *.css
+recursive-include paypal *.csv
+recursive-include paypal *.html
+recursive-include paypal *.ico
+recursive-include paypal *.js
+recursive-include paypal *.json
+recursive-include paypal *.md
+recursive-include paypal *.png
+recursive-include paypal *.py
+recursive-include paypal *.svg
+recursive-include paypal *.txt
+recursive-exclude paypal *.pyc
